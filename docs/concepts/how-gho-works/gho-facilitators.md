@@ -9,31 +9,41 @@ GHO introduces the concept of Facilitators. A Facilitator can trustlessly mint a
 
 ## Current Facilitators
 
-It has been proposed to the Aave community that the Aave V3 Ethereum Pool and FlashMinter Facilitator will be the first Facilitators of GHO.
+Currently there are multiple Facilitators approved by Aave's Governance. Each Facilitator's mechanism serves a different purpose for GHO stablecoin and helps to support its stability.
 
 ### Aave V3 Ethereum Pool
 
-The Aave V3 Ethereum Pool has been proposed to the Aave DAO to serve as one of the initial Facilitators on the Ethereum Mainnet due to the risk-reducing features of this version of the protocol, including [efficiency mode](https://docs.aave.com/developers/whats-new/efficiency-mode-emode) (“eMode”), [isolation mode](https://docs.aave.com/developers/whats-new/isolation-mode), [siloed borrowing](https://docs.aave.com/developers/whats-new/siloed-borrowing), and [caps](https://docs.aave.com/developers/whats-new/supply-borrow-caps). In addition, it will assist with bootstrapping the GHO supply in a decentralized and permissionless fashion.
+The Aave V3 Ethereum Pool was accepted by the Aave DAO to serve as one of the initial Facilitators on the Ethereum Mainnet due to the risk-reducing features of this version of the protocol, including [Efficiency Mode](https://docs.aave.com/developers/whats-new/efficiency-mode-emode) (“E-Mode”), [Isolation Mode](https://docs.aave.com/developers/whats-new/isolation-mode), [Siloed Borrowing](https://docs.aave.com/developers/whats-new/siloed-borrowing), and [Supply/Borrow Caps](https://docs.aave.com/developers/whats-new/supply-borrow-caps). Therefore, Aave's Ethereum pool is able to mint and burn GHO in a decentralized and permissionless fashion, subject to Borrow Cap limitations set up by Aave's governance.
 
 The [Aave Protocol](https://aave.com/) is a liquidity protocol available on Ethereum and various other L1 and L2 networks. Aave allows users to supply a range of assets and borrow against them while simultaneously earning yield, as well as participating in liquidations. The Aave Protocol operates on an overcollateralized model. Accordingly, GHO is overcollateralized as well.
 
 ### FlashMinter
 
-The FlashMinter Facilitator is an entity that enables [FlashMinting](../fundamental-concepts/flashmint.md). FlashMinting is especially important for GHO as it will help to facilitate arbitrage, provide instant liquidity, and have the ability to liquidate users.
+The FlashMinter Facilitator is an entity that enables [FlashMinting](../fundamental-concepts/flashmint.md). FlashMinting is especially important for GHO as it helps to facilitate arbitrage, provide instant liquidity, and have the ability to liquidate unhealthy GHO debt.
 
 As FlashMinting provides the same functionality as the current [flashloan](https://docs.aave.com/developers/guides/flash-loans) standard, it works very much the same (e.g. everything must be returned and there will be a fee).
 
+### GHO Stability Module
+
+A Peg Stability Module (PSM) is a contract that enables the seamless conversion of two tokens at a predetermined ratio. This mechanism has proven effective for numerous stablecoin projects, helping to preserve the stability of exchange rates. Using this model as inspiration, the Stability Module for GHO (GSM) leverages the benefits of existing models whilst innovating upon them in several ways to help further maintain GHO’s peg.
+
+The GSM Facilitator introduces the concept of Price Strategies which provide the ability to adjust the pricing ratio between GHO and the exogenous asset, based on different strategies. Pricing strategies oversee the calculation of the price ratio, and:
+- Can be fixed.
+- Can be dynamic, based on price oracles and markets, linear curves, stableswap curves, etc.
+
+Currently, GSM implements a Fixed Pricing Strategy where USDT and USDC can be used to mint GHO. GSM market parameters can be changed by Aave's Governance. GHO Stability Module's interface is supervised by TokenLogic, an Aave DAO Service Provider, and can be accessed in a [dedicated website](https://app.gsm.tokenlogic.xyz/). 
+
 ### Become a Facilitator
 
-Each Facilitator must be approved by [Aave Governance](https://governance.aave.com/). Aave Governance will be able to determine and assign a Facilitator a specific Bucket capacity to bootstrap GHO liquidity and the GHO market.
+Each Facilitator must be approved by [Aave Governance](https://governance.aave.com/). Before approving it, Aave Governance needs to determine and assign a Facilitator a specific Bucket capacity to bootstrap GHO liquidity and the GHO market.
 
-Frameworks on how to apply to become a Facilitator will be open to community discussion.
+Framework on how to apply to become a Facilitator is described in [Aave's Governance Forum](https://governance.aave.com/t/arfc-gho-facilitator-onboarding-process-and-application/12929).
 
 ## Facilitator Strategies
 
-GHO is minted through various strategies. Eventually, Facilitators will be able to apply different strategies to their generation of GHO. This will allow Aave Governance to manage its exposure to different strategies across the ecosystem, and some strategies may help GHO maintain its peg.
+GHO is minted through various strategies. Facilitators are able to apply different strategies to their generation of GHO. This allows Aave Governance to manage its exposure to different strategies across the ecosystem, with most strategies also helping GHO maintain its peg.
 
-As it will be up to Facilitators to decide their minting strategies, we expect to see exciting creativity in this area. For example, the Aave V3 Pool, one of the proposed initial Facilitators of GHO, operates on an overcollateralized model. As a result, GHO is overcollateralized.
+As it is up to Facilitators to decide their minting strategies, we expect to see exciting creativity in this area. For example, the Aave V3 Pool, one of the proposed initial Facilitators of GHO, operates on an overcollateralized model. As a result, GHO is overcollateralized.
 
 Aave Governance may attract varied Facilitators in different ways. If new and additional Facilitators are approved by Aave Governance, the possibilities are endless.
 

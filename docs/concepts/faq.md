@@ -14,12 +14,12 @@ Borrowers and suppliers can mint GHO using assets they have supplied into V3 as 
 
 ## How to borrow GHO
 
-The GHO pool will function differently from existing assets but to borrow it will work similarly as other available assets on the different markets in the protocol. 
+Similarly to the borrowing of other assets on Aave, a user must supply collateral (at a specific collateral ratio) to be able to mint (borrow) GHO. As GHO is minted on demand, the user does not have to rely on assets being supplied - GHO does not need to be supplied. Step-by-step flow is as follows:
 
 1. Supply Collateral
 2. Borrow GHO
 3. Repay GHO and Accrued Interest (real-time)
-4. Repaid interest will be redirected to the DAO, rather than an asset supplier, contributing to the DAO treasury
+4. Repaid interest is redirected to the DAO, rather than an asset supplier, contributing to the DAO treasury
 
 The video below shows how to borrow GHO using the Aave Protocol interface.
 
@@ -33,21 +33,21 @@ Unlike many stablecoins, the oracle price for GHO is fixed. Decentralized stable
 
 ## Which assets can be used as collateral to borrow GHO?
 
-Assets that are available in the Aave Protocol can be used to back GHO. Initially, the Ethereum V3 pool will be the first facilitator to launch because of V3’s extensive risk-mitigation features, including e-mode, isolation mode, and supply caps.
+Assets that are available in the Aave Protocol Lending Pool can be used to back GHO. The Ethereum V3 pool was first facilitator to launch and support minting (borrowing) GHO. It was possible because of V3’s extensive risk-mitigation features, including e-mode, isolation mode, and supply caps.
 
 ## Who manages the GHO supply?
 
-The Aave DAO will manage the supply of GHO, the interest rates and determine risk parameters.
+The Aave DAO and different Governance assigned entities manage the supply of GHO, the interest rates and determine risk parameters.
 
 ## What is a Facilitator and what does it mean for GHO?
 
-GHO introduces the concept of [Facilitators](../concepts/how-gho-works/gho-facilitators.md). A Facilitator (e.g., a protocol, an entity, etc.) has the ability to trustlessly mint (and burn) GHO tokens. To be added as a Facilitator they would have to be approved by Aave Governance. Various Facilitators will be able to apply different strategies to their generation of GHO.
+GHO introduces the concept of [Facilitators](../concepts/how-gho-works/gho-facilitators.md). A Facilitator (e.g., a protocol, an entity, etc.) has the ability to trustlessly mint (and burn) GHO tokens. To be added as a Facilitator they would have to be approved by Aave Governance. Various Facilitators are able to apply different strategies to their generation of GHO.
 
 ## Can you explain more about the discount model for GHO?
 
 Users that have staked AAVE tokens in the Safety Module (stkAave) are eligible for a discount on GHO.
 
-For each stkAave there will be a discount on the borrowing rate for 100 GHO. The discount model is interchangeable and can be redesigned and replaced if needed by The Aave DAO. The first decision regarding the GHO interest and discount rates can be seen [here](../concepts/fundamental-concepts/gho-discount-strategy.md).
+For each stkAave there is a discount on the borrowing rate for 100 GHO. The discount model is interchangeable and can be redesigned and replaced if needed by The Aave DAO. The first decision regarding the GHO interest and discount rates can be seen [here](../concepts/fundamental-concepts/gho-discount-strategy.md).
 
 ## Is only stkAAVE used for discount or is aBPT eligible? If not, why?
 

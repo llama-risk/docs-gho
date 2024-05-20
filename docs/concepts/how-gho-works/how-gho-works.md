@@ -9,7 +9,7 @@ GHO is a flexible, decentralized overcollateralized stablecoin on the Ethereum M
 
 GHO is created (“minted”) or repaid (“burned”) by Facilitators. GHO is minted upon the supply of assets more than the value of GHO to be minted. GHO is designed to accrue interest when it is borrowed, and this interest rate is determined by [Aave Governance](https://governance.aave.com/).
 
-The following pages and technical paper describe the fundamental characteristics and smart contract design of GHO.
+The following pages and [technical paper](https://github.com/aave/gho-core/blob/main/techpaper/GHO_Technical_Paper.pdf) describe the fundamental characteristics and smart contract design of GHO.
 
 ### GHO Implementation
 

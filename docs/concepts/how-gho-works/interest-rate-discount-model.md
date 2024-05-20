@@ -10,13 +10,13 @@ Compared to other assets within the Aave Protocol, GHO smart contracts do not fo
 
 For GHO, the Aave Protocol integration requires interest rates to be determined by a coordination entity, specifically [Aave Governance](https://governance.aave.com/). The interest rates are set by Aave Governance, which statically adjusts interest rates depending on the need for the GHO supply to contract or expand.
 
-Any changes to the interest rates require a governance proposal. This design works as a stability mechanism and retains the Aave Protocol’s borrow interest rate model flexibility. It will be possible in the future to implement any interest rate strategy the Aave Governance community sees fit.
+Any changes to the interest rates require a governance proposal. This design works as a stability mechanism and retains the Aave Protocol’s borrow interest rate model flexibility. In addition to that, GHO Stewards entity was created by Aave's Governance to actively monitor GHO market situation and modify different GHO parameters, including the borrow rate (subject to pre-defined thresholds), without the need of a governance proposal. You can find more information about it in the GHO [Governance section](./gho-governance.md).
 
 ### Interest Rates
 
 The interest rate is the cornerstone of GHO stability, and, as in all decentralized protocols, it is built into the code.
 
-The GHO price is fixed to $1 on the Aave Protocol; however, the price of GHO can be different in other markets (please see the [Arbitrage](../fundamental-concepts/arbitrage.md) page for further information). When this happens, Aave Governance can vote to increase or decrease the interest rates to encourage users to mint GHO or repay their GHO.
+The GHO price is fixed to $1 on the Aave Protocol; however, the price of GHO can be different in other markets (please see the [Arbitrage](../fundamental-concepts/arbitrage.md) page for further information). When this happens, Aave Governance can increase or decrease the interest rates to encourage users to mint GHO or repay their GHO.
 
 ### GHO Price is Above 1 Dollar
 
@@ -34,9 +34,9 @@ Discounts are available to borrowers staking AAVE in the Safety Module, which is
 
 The configuration of the discount rate is controlled by Aave Governance.
 
-### For each stkAAVE there will be a discount on the borrowing rate for 100 GHO
+### For each stkAAVE there is a discount on the borrowing rate for 100 GHO
 
-For each stkAAVE, a user will receive a 30% discount on interest for 100 GHO, at an interest rate of 1.5%. If a user stakes 1 AAVE and borrows 100 GHO, they have borrowed the maximum amount of GHO available to them at a discount. Their interest rate is 30% of 1.5% → 1.06%. If a user instead borrows 200 GHO, 100 of that GHO will be at a 1.06% interest rate and 100 of the GHO will be at a 1.5% interest rate. Their effective interest rate will be 1.28%.
+For each stkAAVE, a user can receive a 30% discount on interest for 100 GHO. If an interest rate is equal to 1.5% and a user stakes 1 AAVE and borrows 100 GHO, they have borrowed the maximum amount of GHO available to them at a discount. Their discounted interest rate is 30% of 1.5% → 1.06%. If a user instead borrows 200 GHO, 100 of that GHO will be at a 1.06% interest rate and 100 of the GHO will be at a 1.5% interest rate. Their effective interest rate will be 1.28%.
 
 The community decision on the interest rate and discount rate can be found [here](https://snapshot.org/#/aave.eth/proposal/0xb413a17004875443fa3dcf90b07e249b5c4592a760b6daf7b06909131f9fc30c)
 
