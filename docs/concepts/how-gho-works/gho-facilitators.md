@@ -33,9 +33,9 @@ The GSM Facilitator introduces the concept of Price Strategies which provide the
 
 Currently, GSM implements a Fixed Pricing Strategy where USDT and USDC can be used to mint GHO. GSM market parameters can be changed by Aave's Governance. GHO Stability Module's interface is supervised by TokenLogic, an Aave DAO Service Provider, and can be accessed in a [dedicated website](https://app.gsm.tokenlogic.xyz/). 
 
-### Become a Facilitator
+## Become a Facilitator
 
-Each Facilitator must be approved by [Aave Governance](https://governance.aave.com/). Before approving it, Aave Governance needs to determine and assign a Facilitator a specific Bucket capacity to bootstrap GHO liquidity and the GHO market.
+Each Facilitator must be approved by [Aave Governance](https://governance.aave.com/). Before approval, Aave Governance needs to determine and assign a Facilitator a specific Bucket capacity to bootstrap GHO liquidity and the GHO market.
 
 Framework on how to apply to become a Facilitator is described in [Aave's Governance Forum](https://governance.aave.com/t/arfc-gho-facilitator-onboarding-process-and-application/12929).
 

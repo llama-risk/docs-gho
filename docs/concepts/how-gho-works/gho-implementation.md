@@ -72,9 +72,7 @@ When a user repays a borrow position (or is liquidated) where GHO is the asset b
 
 ## Borrow cap
 
-The total amount of GHO that can be minted is limited by a borrow cap that can be and is regularly adjusted by Aave's Governance.
-
-After the launch, GHO stablecoin struggled to keep its peg. In order to counter these issues Aave's governance began closely monitoring GHO's market parameters and performance. Ever since then, Aave's Governance has taken a conservative approach to the borrow cap increases opening the borrow cap step-by-step. Borrow cap and other GHO metrics can be monitored in TokenLogic [GHO analytics dashboard](https://aave.tokenlogic.xyz/gho).
+The total amount of GHO that can be minted is limited by a borrow cap that can be and is regularly adjusted by Aave's Governance. Borrow cap and other GHO metrics can be monitored in TokenLogic [GHO analytics dashboard](https://aave.tokenlogic.xyz/gho).
 
 ## Isolation Mode
 

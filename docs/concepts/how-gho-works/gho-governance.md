@@ -30,7 +30,7 @@ Aave Governance has control over the entities that are added and removed as [Fac
 
 By carefully approving each Facilitator, Aave Governance can manage exposure to different [strategies](./gho-facilitators.md#facilitator-strategies). Aave Governance may want to attract varied Facilitators in several different ways. This could also include strategies for non-Aave users. If non-Aave Protocol Facilitators are approved by Aave Governance, the possibilities and use cases could be endless (e.g., use within payment applications and e-commerce solutions, purchases of GHO on decentralized exchanges, and use as a store of value during market volatility).
 
-### GHO Liquidity Committee
+## GHO Liquidity Committee
 
 GHO Liquidity Committee (GLC) was the first entity created to supervise GHO back in October, 2023. As the name suggests, its only focus is liquidity of GHO stablecoin.
 
@@ -49,7 +49,7 @@ All signers provide the following support:
 
 More information regarding the role of GHO Liquidity Committee can be found in [Aave's Governance forum](https://governance.aave.com/t/temp-check-treasury-management-create-and-fund-gho-liquidity-committee/14800). All performance measures and liquidity targets of GHO developed by this commitee can be found on the [GHO Analytics platform](https://aave.tokenlogic.xyz/liquidity-committee) provided by TokenLogic.
 
-### GHO Stewards
+## GHO Stewards
 
 GHO Stewards is an additional entity that was created in April 2024 to more flexibly manage GHO market parameters enabling GHO to be scaled in accordance with prevailing market conditions.
 

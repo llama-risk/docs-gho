@@ -33,7 +33,7 @@ Unlike many stablecoins, the oracle price for GHO is fixed. Decentralized stable
 
 ## Which assets can be used as collateral to borrow GHO?
 
-Assets that are available in the Aave Protocol Lending Pool can be used to back GHO. The Ethereum V3 pool was first facilitator to launch and support minting (borrowing) GHO. It was possible because of V3’s extensive risk-mitigation features, including e-mode, isolation mode, and supply caps.
+Assets that are available in the Aave Protocol Lending Pool can be used to back GHO. Ethereum V3 pool was the first facilitator to launch and support minting (borrowing) GHO. It was possible because of V3’s extensive risk-mitigation features, including e-mode, isolation mode, and supply caps.
 
 ## Who manages the GHO supply?
 
@@ -41,7 +41,7 @@ The Aave DAO and different Governance assigned entities manage the supply of GHO
 
 ## What is a Facilitator and what does it mean for GHO?
 
-GHO introduces the concept of [Facilitators](../concepts/how-gho-works/gho-facilitators.md). A Facilitator (e.g., a protocol, an entity, etc.) has the ability to trustlessly mint (and burn) GHO tokens. To be added as a Facilitator they would have to be approved by Aave Governance. Various Facilitators are able to apply different strategies to their generation of GHO.
+GHO introduces the concept of [Facilitators](../concepts/how-gho-works/gho-facilitators.md). A Facilitator (e.g., a protocol, an entity, etc.) has the ability to trustlessly mint (and burn) GHO tokens. To be added as a Facilitator, an entity has to be approved by Aave Governance. Various Facilitators are able to apply different strategies to their generation of GHO.
 
 ## Can you explain more about the discount model for GHO?
 
