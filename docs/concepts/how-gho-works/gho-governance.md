@@ -30,24 +30,28 @@ Aave Governance has control over the entities that are added and removed as [Fac
 
 By carefully approving each Facilitator, Aave Governance can manage exposure to different [strategies](./gho-facilitators.md#facilitator-strategies). Aave Governance may want to attract varied Facilitators in several different ways. This could also include strategies for non-Aave users. If non-Aave Protocol Facilitators are approved by Aave Governance, the possibilities and use cases could be endless (e.g., use within payment applications and e-commerce solutions, purchases of GHO on decentralized exchanges, and use as a store of value during market volatility).
 
-## GHO Liquidity Committee
+## Aave (GHO) Liquidity Committee
 
-GHO Liquidity Committee (GLC) was the first entity created to supervise GHO back in October, 2023. As the name suggests, its only focus is liquidity of GHO stablecoin.
+The GHO Liquidity Committee (GLC) was created in October 2023 to focus solely on the liquidity of the GHO stablecoin. The committee was formed through a [governance proposal](https://governance-v2.aave.com/governance/proposal/343/) and consisted of a small team. After a successful initial 3-month period it was integrated into Aave Liquidity Committee (ALC).
 
-The Liquidity Committee can support GHO whilst other initiatives are being considered. Even after GHO liquidity pool receipt tokens are integrated into the SM, the Liquidity Committee can participate in bribe markets to boost the yield on the SM integrations.
+The ALC's main responsibilities regarding GHO include:
+* Providing analytics and modeling of the liquidity strategy
+* Liaising with teams that support the protocols hosting GHO liquidity
+* Leading and coordinating the committee's weekly activities
+* Providing critical feedback and helping refine the strategy
+* Verifying and signing transactions
+    
+The ALC's performance measures and liquidity targets for GHO can be found on the [GHO Analytics platform](https://aave.tokenlogic.xyz/liquidity-committee) provided by TokenLogic.
 
-The Liquidity Committee consists of 7 signers and utilises a 4 of 7 SAFE to implement transactions. To ensure there is smooth operational consistency, there are distinct roles within the committee.
+As of May 2024, the members of the committee are:
 
-TokenLogic, an Aave DAO Service Provider, performs the following functions: 
- - Provide analytics and modelling of the liquidity strategy
- - Liaise with teams that support the protocols hosting the GHO liquidity
- - Lead & Coordinate the committees weekly activities
- 
-All signers provide the following support:
- - Provide critical feedback / help refine the strategy
- - Verify and sign transactions
+- Figue (Paladin)
+- Marc Zeller (ACI)
+- Emilio (Avara)
+- sisyphos (Kpk)
+- Matt (Tokenlogic)
 
-More information regarding the role of GHO Liquidity Committee can be found in [Aave's Governance forum](https://governance.aave.com/t/temp-check-treasury-management-create-and-fund-gho-liquidity-committee/14800). All performance measures and liquidity targets of GHO developed by this commitee can be found on the [GHO Analytics platform](https://aave.tokenlogic.xyz/liquidity-committee) provided by TokenLogic.
+More information regarding the role of GHO Liquidity Committee can be found in [Aave's Governance forum](https://governance.aave.com/t/temp-check-treasury-management-create-and-fund-gho-liquidity-committee/14800).
 
 ## GHO Stewards
 
