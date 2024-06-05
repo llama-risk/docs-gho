@@ -37,7 +37,7 @@ These pages show the different mechanisms involved with GHO, such as how to [bor
 
 ## Smart Contracts
 
-These pages dive into the GHO smart contracts to [explore GHO at a deeper level](../../developer-docs/developer-docs-overview.md) at the technical level. The code design includes software-based mechanisms for the emission and destruction of GHO, for controlling the stability of GHO, and for the role of Aave Governance and Facilitators in managing and maintaining GHO.
+These pages dive into the GHO smart contracts to [explore GHO at a technical level](../../developer-docs/developer-docs-overview.md). The code design includes software-based mechanisms for the emission and destruction of GHO, for controlling the stability of GHO, and for the role of Aave Governance and Facilitators in managing and maintaining GHO.
 
 ## Resources
 
