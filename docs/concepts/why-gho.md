@@ -10,7 +10,7 @@ Stablecoins play an important role in the DeFi ecosystem, offering a fast, effic
 
 Based on the current state of the market, more adoption of decentralized stablecoins and room for growth still need to be made. Furthermore, recent regulatory scrutiny and operational challenges faced by centralized stablecoins have highlighted the need for truly decentralized options that can offer greater transparency and resistance to censorship. This has created a significant demand for decentralized stablecoins that are robust and secure and capable of maintaining stability independently of centralized control. GHO aims to fill this gap by providing a reliable, community-governed alternative addressing these market needs.
 
-### The Aave's Protocol Infrastructure
+### Aave Protocol Infrastructure
 
 The integration of GHO within the Aave ecosystem leverages Aave's established infrastructure and user base, enhancing GHO's credibility and accessibility. Aave's platform, known for its robust lending and borrowing services, provides a fertile ground for GHO's utilization. It allows users to mint GHO by depositing various types of collateral into Aave's lending pool. This over-collateralization ensures that GHO maintains its value stability, even during periods of market turbulence.
 
