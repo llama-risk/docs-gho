@@ -33,7 +33,7 @@ Unlike many stablecoins, the oracle price for GHO is fixed. Decentralized stable
 
 ## Which assets can be used as collateral to borrow GHO?
 
-Assets that are available in the Aave Protocol Lending Pool can be used to back GHO. Ethereum V3 pool was the first facilitator to launch and support minting (borrowing) GHO. It was possible because of V3's extensive risk-mitigation features, including e-mode, isolation mode, and supply caps.
+Assets that are available in the Aave Protocol liquidity pool can be used to back GHO. Ethereum V3 pool was the first facilitator to launch and support minting (borrowing) GHO. It was possible because of V3's extensive risk-mitigation features, including e-mode, isolation mode, and supply caps.
 
 ## Who manages the GHO supply?
 
