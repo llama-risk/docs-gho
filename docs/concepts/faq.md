@@ -53,6 +53,6 @@ For each stkAave there is a discount on the borrowing rate for 100 GHO. The disc
 
 Currently only stkAAVE.
 
-## Can GHO be flash loaded?
+## Can GHO be flash loaned?
 
 GHO can be [FlashMinted](../concepts/fundamental-concepts/flashmint.md). FlashMinting provides the same functionality and follows the current Flashloan standard (ERC3156) as in the Aave Protocol.
