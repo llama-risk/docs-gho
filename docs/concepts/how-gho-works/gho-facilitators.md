@@ -19,7 +19,7 @@ The [Aave Protocol](https://aave.com/) is a liquidity protocol available on Ethe
 
 ### FlashMinter
 
-The FlashMinter Facilitator is an entity that enables [FlashMinting](../fundamental-concepts/flashmint.md). FlashMinting is especially important for GHO as it helps to facilitate arbitrage, provide instant liquidity, and liquidate unhealthy GHO debt.
+The FlashMinter Facilitator is an entity that enables [FlashMinting](../fundamental-concepts/flashmint.md). FlashMinting is especially important for GHO as it helps to facilitate arbitrage, provide instant liquidity, and facilitate liquidation of unhealthy borrow positions.
 
 As FlashMinting provides the same functionality as the current [flashloan](https://docs.aave.com/developers/guides/flash-loans) standard, it works very much the same (e.g., everything must be returned, and there will be a fee).
 
