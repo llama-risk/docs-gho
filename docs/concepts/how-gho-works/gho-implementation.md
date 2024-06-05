@@ -34,7 +34,7 @@ GHO is an over-collateralized asset, where every GHO is backed by more than $1 o
 
 ## Borrow Interest Rates are Defined by Aave Governance
 
-GHO borrows interest, and the Aave DAO sets discount rates. Aave Governance can periodically set the interest rates to help maintain stability with supply and demand.
+The Aave DAO, through it's governance procedures, determines the GHO borrow and discount rates to help maintain stability with supply and demand.
 
 ### Other Assets
 
