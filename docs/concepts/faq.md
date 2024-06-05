@@ -37,7 +37,7 @@ Assets that are available in the Aave Protocol Lending Pool can be used to back 
 
 ## Who manages the GHO supply?
 
-The Aave DAO and different governance-assigned entities manage the supply of GHO and interest rates and determine risk parameters.
+The Aave DAO and different governance-assigned entities manage the supply of GHO, interest rates, and determine risk parameters.
 
 ## What is a Facilitator, and what does it mean for GHO?
 
